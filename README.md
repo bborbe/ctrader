@@ -1,4 +1,4 @@
-# cTrader Proto Files
+# cTrader Golang
 
 ## Proto Source
 
