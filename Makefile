@@ -10,9 +10,9 @@ download:
 	wget -q https://github.com/spotware/openapi-proto-messages/raw/refs/heads/main/OpenApiModelMessages.proto -O OpenApiModelMessages.proto
 
 generate:
-	go generate -mod=vendor ./...
+	go generate -mod=mod ./...
 
 ensure:
 	go mod tidy
 	go mod verify
-	go mod vendor
+	rm -rf vendor
