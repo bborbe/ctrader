@@ -2,7 +2,7 @@ module github.com/bborbe/ctrader
 
 go 1.25.5
 
-require google.golang.org/protobuf v1.36.10
+require google.golang.org/protobuf v1.36.11
 
 exclude cloud.google.com/go v0.26.0
 
@@ -30,30 +30,40 @@ exclude (
 	k8s.io/api v0.34.0
 	k8s.io/api v0.34.1
 	k8s.io/api v0.34.2
+	k8s.io/api v0.34.3
+	k8s.io/api v0.35.0
 )
 
 exclude (
 	k8s.io/apiextensions-apiserver v0.34.0
 	k8s.io/apiextensions-apiserver v0.34.1
 	k8s.io/apiextensions-apiserver v0.34.2
+	k8s.io/apiextensions-apiserver v0.34.3
+	k8s.io/apiextensions-apiserver v0.35.0
 )
 
 exclude (
 	k8s.io/apimachinery v0.34.0
 	k8s.io/apimachinery v0.34.1
 	k8s.io/apimachinery v0.34.2
+	k8s.io/apimachinery v0.34.3
+	k8s.io/apimachinery v0.35.0
 )
 
 exclude (
 	k8s.io/client-go v0.34.0
 	k8s.io/client-go v0.34.1
 	k8s.io/client-go v0.34.2
+	k8s.io/client-go v0.34.3
+	k8s.io/client-go v0.35.0
 )
 
 exclude (
 	k8s.io/code-generator v0.34.0
 	k8s.io/code-generator v0.34.1
 	k8s.io/code-generator v0.34.2
+	k8s.io/code-generator v0.34.3
+	k8s.io/code-generator v0.35.0
 )
 
 exclude (
