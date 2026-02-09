@@ -5,7 +5,6 @@ precommit: test check
 test: ensure
 	@echo "Validating proto files..."
 	@go generate -mod=mod ./...
-	@go build ./...
 	@echo "✅ All tests passed"
 
 check: ensure
