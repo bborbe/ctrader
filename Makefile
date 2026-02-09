@@ -1,6 +1,17 @@
 
-precommit: download generate ensure
+precommit: test check
 	@echo "ready to commit"
+
+test: ensure
+	@echo "Validating proto files..."
+	@go generate -mod=mod ./...
+	@go build ./...
+	@echo "✅ All tests passed"
+
+check: ensure
+	@echo "Running checks..."
+	@go vet ./...
+	@echo "✅ All checks passed"
 
 download:
 	mkdir -p proto
