@@ -1,8 +1,15 @@
 module github.com/bborbe/ctrader
 
-go 1.25.7
+go 1.26.0
 
 require google.golang.org/protobuf v1.36.11
+
+require (
+	github.com/google/osv-scanner/v2 v2.3.3 // indirect
+	github.com/securego/gosec/v2 v2.23.0 // indirect
+	go.yaml.in/yaml/v3 v3.0.2 // indirect
+	golang.org/x/vuln v1.1.4 // indirect
+)
 
 exclude cloud.google.com/go v0.26.0
 
