@@ -8,6 +8,10 @@ Please choose versions by [Semantic Versioning](http://semver.org/).
 * MINOR version when you add functionality in a backwards-compatible manner, and
 * PATCH version when you make backwards-compatible bug fixes.
 
+## v1.2.3
+
+- fix: Skip proto generation in `make test` when `protoc` is not installed
+
 ## v1.2.2
 
 - go mod update

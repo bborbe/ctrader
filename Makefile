@@ -4,7 +4,8 @@ precommit: test check
 
 test: ensure
 	@echo "Validating proto files..."
-	@go generate -mod=mod ./...
+	@if command -v protoc >/dev/null 2>&1; then go generate -mod=mod ./...; else echo "⚠️  protoc not found, skipping proto generation"; fi
+	@go test ./...
 	@echo "✅ All tests passed"
 
 check: ensure
