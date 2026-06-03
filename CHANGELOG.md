@@ -8,6 +8,13 @@ Please choose versions by [Semantic Versioning](http://semver.org/).
 * MINOR version when you add functionality in a backwards-compatible manner, and
 * PATCH version when you make backwards-compatible bug fixes.
 
+## v1.2.5
+
+- bump Go version to 1.26.4
+- exclude cloud.google.com/go v0.26.0 from module graph
+- add .maintainer.yaml with autoRelease and autoApprove
+- disable autoRelease in .dark-factory.yaml
+
 ## v1.2.4
 
 - bump Go version to 1.26.3
