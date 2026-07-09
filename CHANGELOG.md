@@ -8,6 +8,10 @@ Please choose versions by [Semantic Versioning](http://semver.org/).
 * MINOR version when you add functionality in a backwards-compatible manner, and
 * PATCH version when you make backwards-compatible bug fixes.
 
+## v1.2.6
+
+- Bump Go toolchain from 1.26.4 to 1.26.5
+
 ## v1.2.5
 
 - bump Go version to 1.26.4
