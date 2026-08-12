@@ -8,6 +8,10 @@ Please choose versions by [Semantic Versioning](http://semver.org/).
 * MINOR version when you add functionality in a backwards-compatible manner, and
 * PATCH version when you make backwards-compatible bug fixes.
 
+## Unreleased
+
+- chore: add the missing root `LICENSE` (BSD-3-Clause, matching the rest of the fleet). The repo is public and had no license file, which blocked [#3](https://github.com/bborbe/ctrader/pull/3) on `go-licensing/license-file-required`.
+
 ## v1.2.6
 
 - Bump Go toolchain from 1.26.4 to 1.26.5
