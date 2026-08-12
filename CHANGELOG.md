@@ -8,6 +8,10 @@ Please choose versions by [Semantic Versioning](http://semver.org/).
 * MINOR version when you add functionality in a backwards-compatible manner, and
 * PATCH version when you make backwards-compatible bug fixes.
 
+## Unreleased
+
+- chore: add the `## License` section to the README, pointing at the root `LICENSE` file (matching the sibling repos).
+
 ## v1.2.8
 
 - chore: Update Go to 1.26.5 and update dependencies

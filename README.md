@@ -16,3 +16,7 @@ go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
 ```
 make download generate 
 ```
+
+## License
+
+This project is licensed under the BSD-style license. See the [LICENSE](LICENSE) file for details.
