@@ -11,6 +11,7 @@ Please choose versions by [Semantic Versioning](http://semver.org/).
 ## v1.2.7
 
 - chore: add the missing root `LICENSE` (BSD-3-Clause, matching the rest of the fleet). The repo is public and had no license file, which blocked [#3](https://github.com/bborbe/ctrader/pull/3) on `go-licensing/license-file-required`.
+- chore: Update Go to 1.26.5 and update dependencies
 
 ## v1.2.6
 
